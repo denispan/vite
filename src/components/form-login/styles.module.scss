@@ -1,0 +1,16 @@
+.form-container {
+  padding: 36px;
+  border: 2px solid grey;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}

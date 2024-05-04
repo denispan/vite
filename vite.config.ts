@@ -13,5 +13,10 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/setupTests.ts'],
   },
+  css: {
+    modules: {
+      localsConvention: "camelCase",
+    },
+  },
   base: getBasePath(),
 });

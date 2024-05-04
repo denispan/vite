@@ -1,6 +1,6 @@
 body, html {
+  min-height: 100vh;
   width: 100%;
-  min-width: 1144px;
   margin: 0;
   padding: 0;
   font-family: rubik, arial, sans-serif;
@@ -8,7 +8,7 @@ body, html {
   font-style: normal;
   font-size: 16px;
   line-height: 1.15;
-  color: red;
+  color: #383838;
   background-color: #f5f5f5;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -63,7 +63,6 @@ img {
   font: inherit;
   text-align: center;
   word-break: break-word;
-  word-wrap: wrap;
   overflow-wrap: break-word;
   -webkit-transition: color .3s, background-color .3s;
   transition: color .3s, background-color .3s;
